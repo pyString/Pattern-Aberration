@@ -80,8 +80,15 @@ public class Main {
                 }
                 case TUTORIAL -> {
                     ClearBackground(RAYWHITE);
-                    DrawText(TextFormat("Hi! = D \n\n Since I've discovered the Jam late in the game\n (pun intended) I only had time to do this little\n thing!\n\n This first four levels will be an " +
-                            "intro to the\n game! Hope you enjoy it <3"), 10, 10, 20, BLACK);
+                    DrawText(TextFormat("""
+                            Hi! = D\s
+
+                             Since I've discovered the Jam late in the game
+                             (pun intended) I only had time to do this little
+                             thing!
+
+                             This first four levels will be an intro to the
+                             game! Hope you enjoy it <3"""), 10, 10, 20, BLACK);
                     DrawText("" + timer, 450, 650, 20, RED);
                 }
                 case PHASE1 -> {
