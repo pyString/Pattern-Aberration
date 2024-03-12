@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Pattern-Aberrations:jar">
+    <output-path>$USER_HOME$/OneDrive/Área de Trabalho</output-path>
+    <root id="archive" name="Project1test.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Project1test.main" />
+      <element id="library" level="project" name="Gradle: org.opentest4j:opentest4j:1.2.0" />
+      <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.7.0" />
+      <element id="library" level="project" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/uk.co.electronstudio.jaylib/jaylib/4.5.0-0/90c0d608df9bbd32f5f34683acc58cb433e94508/jaylib-4.5.0-0.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.7.0" />
+      <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-engine:1.7.0" />
+      <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-commons:1.7.0" />
+    </root>
+  </artifact>
+</component>
