@@ -102,6 +102,8 @@ public class Main {
                 case PHASE1 -> {
                     ClearBackground(RAYWHITE);
 
+                    DrawText("AAAAA", 10, 10, 10, BLACK);
+
                     DrawTexture(shitPuzzle1, 50, 150, WHITE);
                 }
             }
