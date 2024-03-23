@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="Pattern-Aberrations:jar">
+  <artifact type="jar" name="Project1test:jar">
     <output-path>$USER_HOME$/OneDrive/Área de Trabalho</output-path>
     <root id="archive" name="Project1test.jar">
       <element id="directory" name="META-INF">

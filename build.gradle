@@ -24,6 +24,7 @@ application {
     if(DefaultNativePlatform.currentOperatingSystem.isMacOsX()) {
         applicationDefaultJvmArgs = ['-XstartOnFirstThread']
     }
+    mainClassName = 'Main'
 }
 
 test {
@@ -41,3 +42,10 @@ distributions {
     }
 }
 
+jar {
+     manifest {attributes  "Main-Class": 'Main' }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
